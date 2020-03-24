@@ -1,8 +1,8 @@
 # Trybe
 
-On March 2020 I started my software development course at Trybe, in this repo I will display all my exercises and other things that I'll do during the course.
+On March 2020 I started my software development course at Trybe, in this repo I will show all my exercises and other things that I'll do during the course.
 
-## What I've display here
+## What I've done here
 
 - [x] Unix & Bash
 - [x] Git
