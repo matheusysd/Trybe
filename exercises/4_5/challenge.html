@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Challenge</title>
+</head>
+<body>
+  <script>
+     let array = [
+                  "RL",
+                  "Gordinho",
+                  "Lu", 
+                  "Cremoso", 
+                  "Amandinha", 
+                  "Tulinácio", 
+                  "Cyrilove", 
+                  "Robin"
+                ];
+                
+    function makeList(arr) {
+     
+      let divList = document.createElement('div'),
+      ulList = document.createElement('ul');
+      document.getElementsByTagName('body')[0].appendChild(divList);
+      divList.appendChild(ulList);
+      for (let index = 0; index < arr.length; index++) {
+        let itemList = document.createElement('li');
+        itemList.innerHTML = arr[index];
+        ulList.appendChild(itemList);
+      }
+    }
+    makeList(array);
+  </script>  
+</body>
+</html>
