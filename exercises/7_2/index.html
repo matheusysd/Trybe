@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p:nth-of-type(1) {
+        animation: disappear 3s infinite;
+      }
+      @keyframes disappear {
+        0% {
+          opacity: 0;
+          font-size: smaller;
+          color: red;
+        }
+        60% {
+          font-size: larger;
+        }
+        100% {
+          opacity: 1;
+          font-size: smaller;
+          color: indigo;
+        }
+      }
+      p:nth-of-type(2) {
+        animation: slidein 5s infinite;
+      }
+      @keyframes slidein {
+        0% {
+          margin-left: 0%;
+        }
+        100% {
+          margin-left: 96%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <p>Um texto qualquer!</p>
+    <p>Palavra!</p>
+  </body>
+</html>
