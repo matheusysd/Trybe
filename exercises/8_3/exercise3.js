@@ -9,5 +9,5 @@ const mySum = (arr) => {
 }
 
 // implemente seus testes aqui
-assert.deepEqual(mySum([1, 2, 3, 4]), 10);
-assert.deepEqual(mySum([1, -2, -3, 4]), 0);
+assert.deepEqual(mySum([1, 2, 3, 4]), 10);//Teste se a chamada mySum([1, 2, 3, 4]) retorna o valor 10
+assert.deepEqual(mySum([1, -2, -3, 4]), 0);//Teste se a chamada mySum([1, -2, -3, 4]) retorna o valor esperado

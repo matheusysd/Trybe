@@ -5,4 +5,4 @@ function change(param) {
 }
 
 // implemente seus testes aqui
-assert.ok(change(false), true);
+assert.ok(change(false), true);//Utilize assert.ok() para testar uma condição
