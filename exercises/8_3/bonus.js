@@ -9,6 +9,7 @@ const getChange = (payable, paid) => {
       if (remaining >= coins[index]){//Checkando se o valor que sobrou é maior ou igual ao valor das moedas;
         remaining -= coins[index];//O valor que sobrou sendo maior que o das moedas, sofrerá uma redução pelo valor das moedas, simbolizando o troco;
         change.push(coins[index]);//O array do troco recebe o valor da moeda.
+        // console.log(index) // So pra debugar
         break;
       }
     }
