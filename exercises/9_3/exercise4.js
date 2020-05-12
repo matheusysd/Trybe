@@ -2,29 +2,29 @@ const assert = require('assert')
 
 const people = [
     {
-        name: "Nicole",
+        name: 'Nicole',
         bornIn: 1992,
-        nationality: "Australian"
+        nationality: 'Australian'
     },
     {
-        name: "Harry",
+        name: 'Harry',
         bornIn: 2008,
-        nationality: "Australian"
+        nationality: 'Australian'
     },
     {
-        name: "Toby",
+        name: 'Toby',
         bornIn: 1901,
-        nationality: "Australian"
+        nationality: 'Australian'
     },
     {
-        name: "Frida",
+        name: 'Frida',
         bornIn: 1960,
-        nationality: "Dannish"
+        nationality: 'Dannish'
     },
     {
-        name: "Fernando",
+        name: 'Fernando',
         bornIn: 2001,
-        nationality: "Brazilian"
+        nationality: 'Brazilian'
     }
 ]
 
@@ -34,6 +34,6 @@ const filterPeople = (people) => people.filter(({bornIn, nationality}) =>//Usand
 checkYear(bornIn) && checkNationality(nationality));
 const filteredPeople = filterPeople(people)
 
-assert.deepEqual(filteredPeople[0], { name: "Nicole", bornIn: 1992, nationality: "Australian" })
-assert.deepEqual(filteredPeople[1], { name: "Toby", bornIn: 1901, nationality: "Australian" })
+assert.deepEqual(filteredPeople[0], { name: 'Nicole', bornIn: 1992, nationality: 'Australian' })
+assert.deepEqual(filteredPeople[1], { name: 'Toby', bornIn: 1901, nationality: 'Australian' })
     
