@@ -1,0 +1,36 @@
+body {
+  background-color: gray;
+}
+.card {
+  width: 100px;
+  height: auto;
+  margin: 20px;
+}
+
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
+.flip:hover {
+  transform: rotate(720deg);
+  transition: transform 2s;
+}
+
+@keyframes jump {
+0% {
+    transform: scale(1);
+  }
+50% {
+    transform: scale(2);
+  }
+100% {
+    transform: scale(1);
+  }
+}
+
+.jump:hover {
+  animation-name: jump;
+  animation-duration: 3s;
+}
