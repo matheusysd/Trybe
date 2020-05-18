@@ -6,8 +6,8 @@ const getChange = (payable, paid) => {
 
   if (paid < payable) throw new Error('paid value is not enough')
 
-  for (let index = 0; index < length; index =+ 1) {
-    let coin = coins[i];
+  for (let index = 0; index < length; index += 1) {
+    let coin = coins[index];
 
     let timesCoinFits = Math.floor(remaining / coin);
     if (timesCoinFits >= 1) {
@@ -20,3 +20,5 @@ const getChange = (payable, paid) => {
   }
   return change;
 }
+
+module.exports = getChange;

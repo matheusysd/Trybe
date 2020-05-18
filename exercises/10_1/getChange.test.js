@@ -28,5 +28,4 @@ describe('getChange', () => {
       getChange(100, 10)
     }).toThrow(/paid value is not enough/);
   });
-
 });
