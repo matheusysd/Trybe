@@ -6,7 +6,7 @@ describe('myRemoveWithoutCopy', () => {
   });
 
   test('returns the correct array', () => {
-    expect(myRemoveWithoutCopy([1, 2, 3, 4], 3)).not.toEqual([1, 2, 3, 4]);
+    expect(myRemoveWithoutCopy([1, 2, 3, 4], 3)).not.toBe([1, 2, 3, 4]);
   });
 
   test('changes the passed array', () => {
