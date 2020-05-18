@@ -1,5 +1,3 @@
-const assert = require('assert');
-
 const obj1 = {
   title: 'My Title',
   description: 'My Description',
@@ -16,7 +14,7 @@ const obj3 = {
 };
 
 test("comparing objects", () => {
-  expect(obj1).not.toEqual(obj2);
-  expect(obj2).not.toEqual(obj3);
-  expect(obj1).not.toEqual(obj3);
+  expect(obj1).not.toBe(obj2);
+  expect(obj2).not.toBe(obj3);
+  expect(obj1).not.toBe(obj3);
 });
