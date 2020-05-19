@@ -14,7 +14,7 @@ const obj3 = {
 };
 
 test("comparing objects", () => {
-  expect(obj1).not.toBe(obj2);
-  expect(obj2).not.toBe(obj3);
-  expect(obj1).not.toBe(obj3);
+  expect(obj1).toMatchObject(obj2);
+  expect(obj2).not.toMatchObject(obj3);
+  expect(obj1).not.toMatchObject(obj3);
 });
