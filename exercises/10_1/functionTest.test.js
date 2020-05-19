@@ -5,5 +5,5 @@ test('type of a defined function is not `function`', () => {
 });
 
 test('type of a function not defined is undefined', () => {
-  expect(typeof (thereIsnt)).toBe('undefined');
+  expect(typeof (thereIsnt)).toBeDefined();
 });
